@@ -1,0 +1,140 @@
+@import url("file:///home/fnavid/.cache/wal/colors-waybar.css");
+
+* {
+  font-family: "Radio Canada Big", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+window#waybar {
+  background-color: transparent;
+  color: @background;
+}
+
+#workspaces button.active {
+  color: @foreground;
+}
+
+#workspaces {
+  background-color: @background;
+  padding: 0 5.6px 0 0;
+}
+
+.modules-left {
+  margin-left: 12px;
+}
+
+.modules-right {
+  margin-right: 12px;
+}
+
+#battery,
+#pulseaudio,
+#backlight,
+#custom-weather {
+  color: @color5;
+  /* color5 */
+  background-color: @background;
+  /* background */
+  margin: 0 15px 0 0px;
+  padding: 0 15px 0 15px;
+  /* top, right, bottom, left */
+}
+
+#network {
+  color: @color2;
+  /* color2 */
+  background-color: @background;
+  /* background */
+  margin: 0 0px 0 0px;
+  padding: 0 15px 0 15px;
+  /* top, right, bottom, left */
+}
+
+#clock {
+  color: @color3;
+  /* color3 */
+  background-color: @background;
+  /* background */
+  margin: 0 15px 0 0;
+  padding: 0 15px 0 15px;
+}
+
+#network {
+  color: @color4;
+  /* color4 */
+}
+
+#pulseaudio {
+  color: @color5;
+  /* color5 */
+}
+
+#backlight {
+  color: @color5;
+  /* color5 */
+}
+
+#custom-weather {
+  color: @color4;
+  /* color2 */
+  background-color: @background;
+  /* background */
+  padding: 0 15px 0 15px;
+  /* top, right, bottom, left */
+}
+
+#custom-media {
+  color: @color4;
+  /* color2 */
+  background-color: @background;
+  /* background */
+  margin: 0 0px 0 15px;
+  padding: 0 15px 0 15px;
+  /* top, right, bottom, left */
+}
+
+#custom-appdrawer {
+  font-family: "SpaceMono Nerd Font", "Radio Canada Big", sans-serif;
+  color: @color3;
+  background-color: @background;
+  padding: 0 10px 0 5px;
+  margin: 0 5px 0 0;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+#custom-appdrawer:hover {
+  background-color: @color0;
+  color: @foreground;
+}
+
+/* Bluetooth module */
+#custom-bluetooth {
+    color: @color6;           /* choose a distinct color for Bluetooth */
+    background-color: @background;
+    margin: 0 15px 0 0;       /* spacing: top, right, bottom, left */
+    padding: 0 15px 0 15px;   /* internal padding */
+    border-radius: 10px;      /* same rounded corners as the rest */
+    font-weight: bold;
+    font-size: 16px;          /* match your bar text size */
+}
+
+#custom-bluetooth:hover {
+    background-color: @color0; /* hover effect */
+}
+
+#custom-notifications {
+    color: @foreground;       /* choose a notification color */
+    background-color: @background;
+    margin: 0 20px 0 10px;
+    padding: 0 20px 0 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#custom-notifications:hover {
+    background-color: @color0;
+}
